@@ -2,23 +2,26 @@
 Skill factory F4 task. Project - cook recipes.  
  
 ## Installation 
- 
+Sure that current dir in terminal is root dir!  
 Execute these commands in terminal:  
   
 cd cook_recipes_server  
+python -m venv venv  
 venv/scripts/activate  
-pip install -r requirements.txt  
-python manage.py runserver  
+pip install -r requirements.txt   
 cd ../cook_recipes_client  
 npm install  
   
-Before execute Usage commands use:  
-cd ..
+If you plan to use after installation use command to return to root:  
+cd ..  
   
 ## Usage 
-Execute these commands in terminal:  
-  
+Sure that current dir in terminal is root dir!  
+
+Execute these commands in terminal for SERVER:  
 cd cook_recipes_server  
 python manage.py runserver  
-cd ../cook_recipes_client  
+
+Execute these commands in terminal for CLIENT:  
+cd cook_recipes_client  
 npm start  

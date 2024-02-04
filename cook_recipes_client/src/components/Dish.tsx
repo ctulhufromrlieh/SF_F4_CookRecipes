@@ -56,7 +56,7 @@ class Dish extends React.Component{
             :
             <React.Fragment>
                 <h2>
-                    Блюдо: {this.state["title"]}
+                    Блюдо: {this.state["name"]}
                 </h2>
                 <h3>
                     Ингредиенты:
